@@ -1,4 +1,4 @@
-# Requires macOS + Xcode + xcodegen (brew install xcodegen). Not build-verified: see README.
+# Requires macOS + Xcode + xcodegen (brew install xcodegen) and an iPhone with Face ID; the Simulator runs replay mode only.
 .PHONY: config project build sim replay fetch-mediapipe open
 
 config:

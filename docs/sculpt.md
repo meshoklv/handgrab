@@ -1,4 +1,4 @@
-# Режим «Рисование и скульпт» (ветка `sculpt`)
+# Режим «Рисование и скульпт»
 
 Код — `HandGrab/Sculpt/`. В общих файлах ~15 строк: `HandSceneView.swift` (контроллер в сцене, захват выключен в режиме),
 `ContentView.swift` (`SculptOverlay()`), `HandGrabApp.swift` (`-sculptdemo`, `-replay sculpt-*`), `project.yml` (доступ к «Фото»).
