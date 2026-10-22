@@ -1,0 +1,2 @@
+left.glb / right.glb — модель generic-hand из @webxr-input-profiles/assets 1.0.19 (та же рука, что в браузере Quest).
+MIT License, Copyright (c) 2019 Amazon. https://github.com/immersive-web/webxr-input-profiles

@@ -1,0 +1,5 @@
+// Copy to Config.xcconfig (git-ignored; `make` does this for you) and fill in your own values.
+// Your Apple Developer Team ID: Xcode > Settings > Accounts, or developer.apple.com > Membership.
+HANDGRAB_TEAM_ID = YOUR_TEAM_ID
+// Any reverse-DNS id unique to you (it must be registered under your team to run on a device).
+HANDGRAB_BUNDLE_ID = com.example.handgrab

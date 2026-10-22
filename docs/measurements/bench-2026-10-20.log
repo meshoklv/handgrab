@@ -1,0 +1,74 @@
+BENCH START iPhone iOS 27.2 therm=норма
+картинок: одна рука 4, две руки 3 therm=норма
+DET Vision/авто 480x640 одна maxHands=1 imgs=4 n=160 mean=9.2 p50=9.6 p95=13.5 hands/кадр=1.00 therm=норма
+BENCH START mp iOS 27.2 therm=норма
+DET MediaPipe/GPU 480x640 одна maxHands=1 imgs=4 n=100 mean=0.0 p50=0.0 p95=0.0 hands/кадр=0.00 therm=норма
+DET MediaPipe/GPU 480x640 две maxHands=2 imgs=3 n=75 mean=0.0 p50=0.0 p95=0.0 hands/кадр=0.00 therm=норма
+DET MediaPipe/GPU 640x480 .right одна maxHands=1 imgs=4 n=100 mean=0.0 p50=0.0 p95=0.0 hands/кадр=0.00 therm=норма
+AGREE Vision/авто vs MediaPipe/GPU imgs=0 mean_dist=nan (доля кадра) therm=норма
+DET MediaPipe/CPU 480x640 одна maxHands=1 imgs=4 n=100 mean=0.0 p50=0.0 p95=0.0 hands/кадр=0.00 therm=норма
+DET MediaPipe/CPU 480x640 две maxHands=2 imgs=3 n=75 mean=0.0 p50=0.0 p95=0.0 hands/кадр=0.00 therm=норма
+DET MediaPipe/CPU 640x480 .right одна maxHands=1 imgs=4 n=100 mean=0.0 p50=0.0 p95=0.0 hands/кадр=0.00 therm=норма
+AGREE Vision/авто vs MediaPipe/CPU imgs=0 mean_dist=nan (доля кадра) therm=норма
+BENCH DONE therm=норма
+BENCH START mp iOS 27.2 therm=норма
+DET MediaPipe/GPU 480x640 одна maxHands=1 imgs=4 n=100 mean=3.7 p50=2.6 p95=8.9 hands/кадр=1.00 therm=норма
+DET MediaPipe/GPU 480x640 две maxHands=2 imgs=3 n=75 mean=6.3 p50=5.3 p95=10.8 hands/кадр=2.00 therm=норма
+DET MediaPipe/GPU 640x480 .right одна maxHands=1 imgs=4 n=100 mean=9.0 p50=8.3 p95=16.3 hands/кадр=1.00 therm=норма
+AGREE Vision/авто vs MediaPipe/GPU imgs=0 mean_dist=nan (доля кадра) therm=норма
+DET MediaPipe/CPU 480x640 одна maxHands=1 imgs=4 n=100 mean=36.2 p50=37.1 p95=49.0 hands/кадр=1.00 therm=норма
+DET MediaPipe/CPU 480x640 две maxHands=2 imgs=3 n=75 mean=63.6 p50=66.6 p95=81.6 hands/кадр=2.00 therm=норма
+DET MediaPipe/CPU 640x480 .right одна maxHands=1 imgs=4 n=100 mean=33.0 p50=34.9 p95=46.0 hands/кадр=1.00 therm=норма
+AGREE Vision/авто vs MediaPipe/CPU imgs=4 mean_dist=0.019 (доля кадра) therm=норма
+BENCH DONE therm=норма
+BENCH START mp iOS 27.2 therm=норма
+DET MediaPipe/GPU 480x640 одна maxHands=1 imgs=4 n=100 mean=3.2 p50=2.8 p95=4.4 hands/кадр=1.00 therm=норма
+DET MediaPipe/GPU 480x640 две maxHands=2 imgs=3 n=75 mean=6.5 p50=5.3 p95=12.1 hands/кадр=2.00 therm=норма
+DET MediaPipe/GPU 480x640 одна maxHands=2 imgs=4 n=100 mean=11.9 p50=11.8 p95=17.2 hands/кадр=1.00 therm=норма
+DET MediaPipe/GPU 640x480 .right одна maxHands=1 imgs=4 n=100 mean=8.2 p50=8.3 p95=9.4 hands/кадр=1.00 therm=норма
+DET MediaPipe/GPU 640x480 .up одна maxHands=1 imgs=4 n=100 mean=7.5 p50=7.6 p95=9.7 hands/кадр=1.00 therm=норма
+DET MediaPipe/GPU 640x480 .up две maxHands=2 imgs=3 n=75 mean=8.9 p50=8.4 p95=14.9 hands/кадр=0.75 therm=норма
+AGREE Vision/авто vs MediaPipe/GPU 480x640 .up imgs=0 (без руки: 0 / 4) mean_dist=nan (доля кадра) therm=норма
+AGREE Vision/авто vs MediaPipe/GPU 640x480 .right imgs=0 (без руки: 0 / 4) mean_dist=nan (доля кадра) therm=норма
+AGREE MediaPipe/GPU vs MediaPipe/GPU MP .right vs MP .up (один и тот же кадр) imgs=0 (без руки: 4 / 4) mean_dist=nan (доля кадра) therm=норма
+AGREE Vision/авто vs MediaPipe/GPU 640x480 Vision .right / MP .up imgs=0 (без руки: 0 / 4) mean_dist=nan (доля кадра) therm=норма
+DET MediaPipe/CPU 480x640 одна maxHands=1 imgs=4 n=100 mean=30.6 p50=34.6 p95=39.0 hands/кадр=1.00 therm=норма
+DET MediaPipe/CPU 480x640 две maxHands=2 imgs=3 n=75 mean=63.6 p50=66.7 p95=78.7 hands/кадр=2.00 therm=норма
+DET MediaPipe/CPU 480x640 одна maxHands=2 imgs=4 n=100 mean=76.9 p50=81.0 p95=93.5 hands/кадр=1.00 therm=норма
+DET MediaPipe/CPU 640x480 .right одна maxHands=1 imgs=4 n=100 mean=19.9 p50=16.6 p95=37.8 hands/кадр=1.00 therm=норма
+DET MediaPipe/CPU 640x480 .up одна maxHands=1 imgs=4 n=100 mean=4.2 p50=4.1 p95=4.5 hands/кадр=1.00 therm=норма
+DET MediaPipe/CPU 640x480 .up две maxHands=2 imgs=3 n=75 mean=7.3 p50=7.3 p95=7.5 hands/кадр=2.00 therm=норма
+AGREE Vision/авто vs MediaPipe/CPU 480x640 .up imgs=4 (без руки: 0 / 0) mean_dist=0.017 (доля кадра) therm=норма
+AGREE Vision/авто vs MediaPipe/CPU 640x480 .right imgs=4 (без руки: 0 / 0) mean_dist=0.168 (доля кадра) therm=норма
+AGREE MediaPipe/CPU vs MediaPipe/CPU MP .right vs MP .up (один и тот же кадр) imgs=4 (без руки: 0 / 0) mean_dist=0.170 (доля кадра) therm=норма
+AGREE Vision/авто vs MediaPipe/CPU 640x480 Vision .right / MP .up imgs=4 (без руки: 0 / 0) mean_dist=0.016 (доля кадра) therm=норма
+BENCH DONE therm=норма
+BENCH START cam iOS 27.2 therm=норма
+CAM видео+глубина 640 fps=60.0 доставка mean=34.8 p50=36.3 p95=40.0 мс CPU=23% (видео 640×480@60 глубина 640×480 hdep @30) therm=норма
+CAM видео+глубина 160 fps=60.0 доставка mean=38.4 p50=38.4 p95=40.7 мс CPU=30% (видео 640×480@60 глубина 160×120 hdep @30) therm=норма
+BENCH START vision iOS 27.2 therm=норма
+картинок: одна рука 4, две руки 3 therm=норма
+DET Vision/авто 480x640 одна maxHands=1 imgs=4 n=100 mean=8.6 p50=8.2 p95=12.6 hands/кадр=1.00 therm=норма
+DET Vision/авто 360x480 одна maxHands=1 imgs=4 n=100 mean=10.4 p50=10.6 p95=13.5 hands/кадр=1.00 therm=норма
+DET Vision/авто 240x320 одна maxHands=1 imgs=4 n=100 mean=11.6 p50=12.1 p95=13.5 hands/кадр=1.00 therm=норма
+DET Vision/авто 192x256 одна maxHands=1 imgs=4 n=100 mean=10.7 p50=10.8 p95=13.7 hands/кадр=1.00 therm=норма
+DET Vision/авто 640x480 .right одна maxHands=1 imgs=4 n=100 mean=12.8 p50=13.1 p95=15.3 hands/кадр=1.00 therm=норма
+DET Vision/авто 640x480 .right одна maxHands=2 imgs=4 n=100 mean=13.1 p50=13.3 p95=14.8 hands/кадр=1.00 therm=норма
+DET Vision/авто 480x640 две maxHands=2 imgs=3 n=75 mean=18.0 p50=18.3 p95=20.1 hands/кадр=2.00 therm=норма
+DET Vision/авто 480x640 одна maxHands=2 imgs=4 n=100 mean=12.2 p50=12.3 p95=13.5 hands/кадр=1.00 therm=норма
+DET Vision/ANE 480x640 одна maxHands=1 imgs=4 n=100 mean=12.4 p50=12.4 p95=14.0 hands/кадр=1.00 therm=норма
+DET Vision/ANE 480x640 две maxHands=2 imgs=3 n=75 mean=16.2 p50=16.4 p95=20.1 hands/кадр=2.00 therm=норма
+DET Vision/GPU 480x640 одна maxHands=1 imgs=4 n=100 mean=11.0 p50=11.8 p95=14.6 hands/кадр=1.00 therm=норма
+DET Vision/GPU 480x640 две maxHands=2 imgs=3 n=75 mean=20.2 p50=19.2 p95=33.6 hands/кадр=2.00 therm=норма
+DET Vision/CPU 480x640 одна maxHands=1 imgs=4 n=100 mean=39.1 p50=15.1 p95=86.3 hands/кадр=1.00 therm=норма
+DET Vision/CPU 480x640 две maxHands=2 imgs=3 n=75 mean=84.4 p50=86.4 p95=98.4 hands/кадр=2.00 therm=норма
+BENCH DONE therm=норма
+BENCH START live iOS 27.2 therm=норма
+DET Vision/авто круг 1 640x480 одна maxHands=2 imgs=4 n=60 mean=8.5 p50=9.2 p95=11.7 hands/кадр=1.00 therm=норма
+DET Vision/авто круг 1 640x480 две maxHands=2 imgs=3 n=45 mean=14.8 p50=16.1 p95=18.6 hands/кадр=2.00 therm=норма
+BENCH START cam iOS 27.2 therm=норма
+BENCH START cam iOS 27.2 therm=норма
+BENCH START cam,mp,vision iOS 27.2 therm=норма
+картинок: одна рука 4, две руки 3 therm=норма
+DET Vision/авто 480x640 одна maxHands=1 imgs=4 n=100 mean=9.2 p50=9.9 p95=13.2 hands/кадр=1.00 therm=норма
+BENCH START cam iOS 27.2 therm=норма

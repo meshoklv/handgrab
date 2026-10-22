@@ -1,0 +1,67 @@
+name: HandGrab
+options:
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    MARKETING_VERSION: "0.1"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+configFiles:
+  Debug: Config.xcconfig
+  Release: Config.xcconfig
+targets:
+  HandGrab:
+    type: application
+    platform: iOS
+    sources:
+      - path: HandGrab
+      # Модель MediaPipe Hand Landmarker  (make fetch-mediapipe).
+      - path: vendor/mediapipe/hand_landmarker.task
+        buildPhase: resources
+        optional: true
+    dependencies:
+      # MediaPipe Tasks Vision 0.10.35, статические (scripts/fetch-mediapipe.sh).
+      - framework: vendor/mediapipe/0.10.35/frameworks/MediaPipeTasksCommon.xcframework
+        embed: false
+      - framework: vendor/mediapipe/0.10.35/frameworks/MediaPipeTasksVision.xcframework
+        embed: false
+      - sdk: Accelerate.framework
+      - sdk: CoreMedia.framework
+      - sdk: CoreVideo.framework
+      - sdk: Metal.framework
+      - sdk: AudioToolbox.framework
+    settings:
+      base:
+        OTHER_LDFLAGS: ["$(inherited)", "-ObjC", "-lc++"]
+        "OTHER_LDFLAGS[sdk=iphoneos*]": ["$(inherited)", "-ObjC", "-lc++", "-force_load", "$(PROJECT_DIR)/vendor/mediapipe/0.10.35/frameworks/graph_libraries/libMediaPipeTasksCommon_device_graph.a"]
+        "OTHER_LDFLAGS[sdk=iphonesimulator*]": ["$(inherited)", "-ObjC", "-lc++", "-force_load", "$(PROJECT_DIR)/vendor/mediapipe/0.10.35/frameworks/graph_libraries/libMediaPipeTasksCommon_simulator_graph.a"]
+        PRODUCT_NAME: HandGrab
+        PRODUCT_BUNDLE_IDENTIFIER: $(HANDGRAB_BUNDLE_ID)
+        DEVELOPMENT_TEAM: $(HANDGRAB_TEAM_ID)
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_OPTIMIZATION_LEVEL: "-O"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+    info:
+      path: HandGrab/Info.plist
+      properties:
+        CFBundleDisplayName: HandGrab
+        NSCameraUsageDescription: "Камера нужна для распознавания рук"
+        NSPhotoLibraryAddUsageDescription: "Сохранять картинки скульптур в «Фото»"
+        CADisableMinimumFrameDurationOnPhone: true
+        UIRequiresFullScreen: true
+        UIStatusBarHidden: true
+        UIViewControllerBasedStatusBarAppearance: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UILaunchScreen: {}
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        UIRequiredDeviceCapabilities: [arm64]
+        CFBundleIcons:
+          CFBundlePrimaryIcon:
+            CFBundleIconFiles: [AppIcon60x60]

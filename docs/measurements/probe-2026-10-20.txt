@@ -1,0 +1,452 @@
+=== HandGrab probe 2026-10-20T05:58:02Z ===
+device: Front TrueDepth Camera type=AVCaptureDeviceTypeBuiltInTrueDepthCamera model=iPhone18,4 iOS=27.2.0
+[0] 420v 192×144 fps 1–60 fov 73.2°
+[1] 420f 192×144 fps 1–60 fov 73.2°
+[2] 420v 352×288 fps 1–60 fov 68.5°
+[3] 420f 352×288 fps 1–60 fov 68.5°
+[4] 420v 480×360 fps 1–60 fov 73.2°
+[5] 420f 480×360 fps 1–60 fov 73.2°
+[6] 420v 640×480 fps 3–60 fov 73.2°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[7] 420f 640×480 fps 3–60 fov 73.2°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[8] 420v 640×480 fps 3–60 fov 73.2° binned
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[9] 420f 640×480 fps 3–60 fov 73.2° binned
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[10] 420v 960×540 fps 1–30 fov 73.2°
+[11] 420f 960×540 fps 1–30 fov 73.2°
+[12] 420v 1024×768 fps 1–60 fov 73.2°
+[13] 420f 1024×768 fps 1–60 fov 73.2°
+[14] 420v 1280×720 fps 3–30 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[15] 420f 1280×720 fps 3–30 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[16] x420 1280×720 fps 3–30 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[17] 420v 1280×720 fps 3–60 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[18] 420f 1280×720 fps 3–60 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[19] x420 1280×720 fps 3–60 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[20] 420v 1280×720 fps 3–60 fov 73.2° binned
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[21] 420f 1280×720 fps 3–60 fov 73.2° binned
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[22] 420v 1280×720 fps 1–120 fov 73.2° binned
+[23] 420f 1280×720 fps 1–120 fov 73.2° binned
+[24] 420v 1440×1080 fps 3–60 fov 73.2° binned
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[25] 420f 1440×1080 fps 3–60 fov 73.2° binned
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[26] 420v 1920×1080 fps 3–30 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[27] 420f 1920×1080 fps 3–30 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[28] x420 1920×1080 fps 3–30 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[29] 420v 1920×1080 fps 3–60 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[30] 420f 1920×1080 fps 3–60 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[31] x420 1920×1080 fps 3–60 fov 73.2°
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[32] 420v 1920×1080 fps 3–60 fov 73.2° binned
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[33] 420f 1920×1080 fps 3–60 fov 73.2° binned
+     depth hdis 160×90 fps 3–30
+     depth fdis 160×90 fps 3–30
+     depth hdep 160×90 fps 3–30
+     depth fdep 160×90 fps 3–30
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+     depth hdis 640×360 fps 3–30
+     depth fdis 640×360 fps 3–30
+     depth hdep 640×360 fps 3–30
+     depth fdep 640×360 fps 3–30
+[34] 420v 1920×1080 fps 1–120 fov 73.2° binned
+[35] 420f 1920×1080 fps 1–120 fov 73.2° binned
+[36] 420v 1920×1440 fps 3–30 fov 73.2°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[37] 420f 1920×1440 fps 3–30 fov 73.2°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[38] x420 1920×1440 fps 3–30 fov 73.2°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[39] 420v 1920×1440 fps 3–60 fov 73.2° binned
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[40] 420f 1920×1440 fps 3–60 fov 73.2° binned
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[41] 420v 3088×2316 fps 3–30 fov 59.3°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[42] 420f 3088×2316 fps 3–30 fov 59.3°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[43] x420 3088×2316 fps 3–30 fov 59.3°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[44] 420v 3840×2160 fps 3–30 fov 73.2°
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+[45] 420f 3840×2160 fps 3–30 fov 73.2°
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+[46] x420 3840×2160 fps 3–30 fov 73.2°
+     depth hdis 320×180 fps 3–30
+     depth fdis 320×180 fps 3–30
+     depth hdep 320×180 fps 3–30
+     depth fdep 320×180 fps 3–30
+[47] 420v 3840×2160 fps 1–60 fov 73.2°
+[48] 420f 3840×2160 fps 1–60 fov 73.2°
+[49] x420 3840×2160 fps 1–60 fov 73.2°
+[50] 420v 4032×3024 fps 3–30 fov 73.2°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+[51] 420f 4032×3024 fps 3–30 fov 73.2°
+     depth hdis 160×120 fps 3–30
+     depth fdis 160×120 fps 3–30
+     depth hdep 160×120 fps 3–30
+     depth fdep 160×120 fps 3–30
+     depth hdis 320×240 fps 3–30
+     depth fdis 320×240 fps 3–30
+     depth hdep 320×240 fps 3–30
+     depth fdep 320×240 fps 3–30
+     depth hdis 640×480 fps 3–30
+     depth fdis 640×480 fps 3–30
+     depth hdep 640×480 fps 3–30
+     depth fdep 640×480 fps 3–30
+active: видео 640×480@60 глубина 640×480 hdep @30
+activeFormat 640×480 min dur 0.016666666666666666 depth min dur 0.03333333333333333
